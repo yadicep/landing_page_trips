@@ -1,0 +1,151 @@
+*{
+    border:0;
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.fondo .navbar{
+    background-color: transparent !important;
+}
+nav{
+    font-family: "Montserrat", sans-serif;    
+}
+#logo{
+    color: #E1E5E5;
+    font-weight: 400;
+    font-size: x-large;
+}
+#menu-color{
+    color: #fff;   
+}
+.item img{
+    width: auto;
+    height: 800px;
+    max-height: 800px;
+}
+#main{
+    background-color: #000;
+}
+#somos-titulo h1{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    color: #fff;
+}
+#destacados-titulo h1{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    color: #fff;
+}
+#contacto-titulo h1{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    color: #fff;
+}
+#somos-info, #destacados-info{
+    display: flex;
+    justify-content: center;
+}
+#viaje, #lugar, #ruta{
+    display: inline-block;
+    width: 32%;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    padding: 5px 5px 5px 5px;;
+}
+#viaje-titulo, #lugar-titulo, #ruta-titulo{
+    font-size: 28px;
+    line-height: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px 5px 5px;
+    background-color: #45D3F7;
+}
+#viaje-info, #lugar-info, #ruta-info{
+    padding: 10px 5px 5px 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+.foto img{
+    width: 100%;
+    height: 150px;
+    max-height: 150px;
+}
+.fondo-card{
+    background-color: #45D3F7;
+}
+.fondo-card h5{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px; 
+}
+.fondo-card p{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;    
+}
+.text{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;   
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+#hr{
+    height: 2px;
+    background-color: #A7ADAD;
+}
+.enviar:hover{
+    background-color: #526565;
+    transition: 0.8s;
+    opacity: 0.4;
+  }
+.pie{
+    background-color: #45D3F7;
+    line-height: 50px;
+    color: #fff;
+    display: flex;
+}
+footer{
+    background-color: #45D3F7;
+}
+#logo-pie{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#rrss-pie{
+    color: #fff;
+    font-size: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.color-rrss{
+    color: #fff;   
+}
+@media (max-width: 430px){
+    #carousel-fotos{
+      display: none;
+    }
+  }

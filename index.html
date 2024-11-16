@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Emojis y otros caracteres que no están en ASCII-->
+    <meta charset="UTF-8">
+    <!--Control ancho de página para diferentes dispositivos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Viewport para Responsive Design--> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!--Título de la página-->
+    <title>VIAJES CHILE PAGE</title>
+    <!--Link Estilos-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Link Favicon-->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico">
+    <!--Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Link Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--Script jQuery-->    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--Script Iconos-->
+    <script src="https://kit.fontawesome.com/4c455109a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--Encabezado de la página-->
+    <header>
+        <div class="fondo">
+            <!--Carousel con Imágenes Destacadas y Reproducción Automática-->
+            <div id="carouselExample" class="carousel slide" data-ride="carousel" data-bs-slide="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active item">
+                    <img src="assets/img/fondo.png" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item item">
+                    <img src="assets/img/img1.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item item">
+                    <img src="assets/img/img2.png" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item item">
+                    <img src="assets/img/img3.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item item">
+                    <img src="assets/img/img4.png" class="d-block w-100">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <!--Navbar con Smooth Scroll en Evento Click-->  
+            <div class="container fixed-top">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <!--Logo Viajes Chile-->  
+                    <a class="navbar-brand" id="logo"><img src="assets/img/logo.png" style="height: 25px;" alt="Logo"> Viajes Chile</a>
+                    <!--Menú de navegación-->  
+                    <button class="navbar-toggler navbar-dark border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto" id="navbarSupportedContent">
+                            <li class="nav-item active"><a class="nav-link" href="#" id="menu-color">Inicio </a></li>
+                            <li class="nav-item"><a class="nav-link" href="#quienes_somos" id="menu-color">Quienes somos </a></li>
+                            <li class="nav-item"><a class="nav-link" href="#destacados" id="menu-color">Destacados </a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contacto" id="menu-color">Contacto </a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--Contenido de la página-->
+    <main>
+        <div id="main">
+            <div id="principal" class="container">
+
+                <!--Sección Quienes somos / Desaparece en tamaños de pantalla muy pequeños y pequeños-->
+                <section class="d-none d-sm-block d-sm-none d-md-block">
+                    <div id="somos" class="container">
+                        <br>
+                        <br>
+                        <div id="somos-titulo" class="container">
+                            <a name="quienes_somos"></a>
+                            <br>
+                            <h1>¿QUIENES SOMOS?</h1>
+                            <hr id="hr">
+                        </div>
+                        <br>
+                        <div id="somos-info" class="container">
+                            <!--Información 1-->
+                            <div id="viaje" class="container">
+                                <div id="viaje-titulo" class="container">
+                                    <i class="fa-solid fa-plane"></i>
+                                </div>
+                                <div id="viaje-info" class="container">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                                </div>
+                            </div>
+                            <!--Información 2-->
+                            <div id="lugar" class="container">
+                                <div id="lugar-info" class="container">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                                </div>
+                                <div id="lugar-titulo" class="container">
+                                    <i class="fa-solid fa-mountain"></i>
+                                </div>
+                            </div>
+                            <!--Información 3-->
+                            <div id="ruta" class="container">
+                                <div id="ruta-titulo" class="container">
+                                    <i class="fa-solid fa-route"></i>
+                                </div>
+                                <div id="ruta-info" class="container">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </section>
+
+                <!--Sección Destacados-->
+                <section>
+                    <div id="destacados" class="container">
+                        <div id="destacados-titulo" class="container">
+                            <a name="destacados"></a>
+                            <br>
+                            <br>
+                            <h1>DESTACADOS</h1>
+                            <hr id="hr">
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-12 col-md-3 mb-4">
+                                <div class="card foto">
+                                    <img src="assets/img/img1.jpg" class="card-img-top">
+                                    <div class="card-body fondo-card">
+                                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                           </div>
+                           <div class="col-12 col-md-3 mb-4">
+                                <div class="card foto">
+                                    <img src="assets/img/img2.png" class="card-img-top">
+                                    <div class="card-body fondo-card">
+                                       <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                   </div>
+                                </div>
+                           </div>
+                           <div class="col-12 col-md-3 mb-4">
+                                <div class="card foto">
+                                    <img src="assets/img/img3.jpg" class="card-img-top">
+                                    <div class="card-body fondo-card">
+                                       <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                   </div>
+                                </div>
+                           </div>
+                           <div class="col-12 col-md-3 mb-4">
+                               <div class="card foto">
+                                   <img src="assets/img/img4.png" class="card-img-top">
+                                   <div class="card-body fondo-card">
+                                       <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                   </div>
+                               </div>
+                          </div>
+
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <!--Sección de Contacto-->
+                <section>
+                    <div id="contacto" class="form-group">
+                        <div id="destacados-titulo">
+                            <a name="contacto"></a>
+                            <br>
+                            <h1>CONTACTO</h1>
+                            <hr id="hr">
+                        </div>
+                        <br>
+                        <!--Formulario-->
+                        <div class="col-md-12">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form">
+                                            <label for="name" class="text">Nombre</label>
+                                            <input type="text" id="name" name="name" class="form-control">
+                                        </div>
+                                        <div class="md-form">
+                                            <label for="subject" class="text">Asunto</label>
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                        </div>
+                                        <div class="md-form">
+                                            <label for="message" class="text">Mensaje</label>
+                                            <textarea type="text" id="message" name="message" rows="6" class="form-control md-textarea"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <br>
+                        <!--Botón "Enviar" con Tooltip y Mensaje Emergente-->
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-primary enviar" data-toggle="tooltip" title="Envía aquí tus consultas" id="liveAlertBtn">&nbsp&nbspEnviar&nbsp&nbsp</button> 
+                        <br>
+                        <br>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <!--Pie de la página-->
+    <footer>
+        <div class="container pie">
+            <!--Logo del Pie de Página-->
+            <div id="logo-pie" class="container">
+                <p>VIAJES CHILE</p>
+            </div>
+            <!--Links a redes Sociales-->
+            <div id="rrss-pie" class="container">
+                <ul>
+                    <a href="https://github.com/" target="_blank" title="GitHub"><i class="fa-brands fa-github color-rrss">&nbsp</i></a>
+                    <a href="https://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin color-rrss">&nbsp</i></a>
+                    <a href="https://twitter.com/" target="_blank" title="Twitter"><i class="fa-brands fa-twitter color-rrss">&nbsp</i></a>
+                    <a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fa-brands fa-square-facebook color-rrss">&nbsp</i></a>
+                </ul>
+            </div>           
+        </div>
+    </footer>
+
+    <!--SCRIPTS-->
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--Javascript-->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
