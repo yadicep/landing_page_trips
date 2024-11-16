@@ -1,4 +1,4 @@
-# **BASIC TEMPLATE WITH A TRIPS THEME**
+# **LANDING PAGE WITH A TRIPS THEME**
 
 ## **Description**
 This landing page allows smooth navigation with scroll between sections, displays dynamic content through a carousel, and validates forms interactively. Additionally, it adapts to different devices thanks to its responsive design and leverages advanced Bootstrap and JavaScript components.
